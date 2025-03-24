@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     const votesForm = document.getElementById('votes-form');
     const votesInput = document.getElementById('votes');
     const characterForm = document.getElementById('character-form');
-    const characterNameInput = document.getElementById('name');
+    const characterNameInput =  document.querySelector("#character-form #name");
     const characterImageInput = document.getElementById('image-url');
     let currentCharacter = null;
 
